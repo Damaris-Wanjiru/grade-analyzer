@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Analyzer</title>
+</head>
+<body>
+    <div>
+        <h1>Grade Analyzer</h1>
+        <label for="Students grades">Enter students grades:</label>
+        <input type="text" id="studentsGrades" placeholder="Enter grades">
+        <br>
+        <label for="operation">Choose operation:</label>
+        <select id="operation">
+            <option value="Average">Average</option>
+            <option value="Highest">Highest</option>
+            <option value="Lowest">Lowest</option>
+        </select>
+        <br>
+        <button onclick="analyzerGrades()">Analyze Grades</button>
+        <br>
+        <p id="result"></p>
+    </div>
+    
+</body>
+</html> 
